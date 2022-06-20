@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Backend List Teachers",
+      "setup": "npm install",
+      "run": "npm test -- -t \"GET /listTeachers should show all teachers\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    }
+  ]
+}
